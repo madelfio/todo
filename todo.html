@@ -1,0 +1,23 @@
+<script src="./codemirror/codemirror.js"></script>
+<link rel="stylesheet" href="./codemirror/codemirror.css">
+<link rel="stylesheet" href="./codemirror/theme/ambiance.css">
+<script src="todo-mode.js"></script>
+<link rel="stylesheet" href="./todo.css">
+<div id="todo"></div>
+<div id="footer">
+  <div id="legend" class="cm-s-ambiance">
+    <span>Pending Task</span>
+    <span class="cm-error">+ Active Task</span>
+    <span class="cm-string">X Completed Task</span>
+    <span class="cm-comment"># Comment</span>
+  </div>
+  <div id="reminders">
+    <a id="enable-reminders">Enable Reminders</a>
+    <div id="interval" style="display:none">
+      Interval:
+      <input type="text" id="minutes" value="1" style="width:35px;"></input>
+      minutes
+    </div>
+  </div>
+</div>
+<script src="todo.js"></script>
