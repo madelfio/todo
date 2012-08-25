@@ -1,0 +1,3 @@
+A dead-simple todo list HTML app that keeps me focused.
+
+Uses webkit notifications to generate reminders at specified intervals.
