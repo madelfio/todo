@@ -25,6 +25,7 @@ body { background-color: gray; }
 #legend span { width:160px; display:inline-block; font-size:.95em;}
 
 #reminders {position:absolute; right:10px; bottom:0px;}
+#enable-reminders {cursor:pointer; text-decoration:underline;}
 
 /* theme modifications */
 .cm-error {font-weight:bold;}
