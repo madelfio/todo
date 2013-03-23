@@ -1,4 +1,4 @@
-body { background-color: gray; font-family:sans-serif;}
+body { background-color: gray; font-family:sans-serif; font-size: 16px;}
 
 .CodeMirror {
   display:block;
@@ -22,8 +22,8 @@ body { background-color: gray; font-family:sans-serif;}
 }
 
 /*#legend { width:350px; padding:4px; }*/
-#legend { width:160px; padding:4px; box-shadow: 0 0 0.5em black;}
-#legend span { width:145px; display:inline-block; font-size:.95em;}
+#legend { display: inline-block; padding:4px; box-shadow: 0 0 0.5em black;}
+#legend span { display:block; white-space: no-wrap; font-size:.95em;}
 
 #reminders {position:absolute; right:10px; bottom:0px; font-size:.95em; padding-bottom:10px;}
 #enable-reminders {cursor:pointer; text-decoration:underline;}
